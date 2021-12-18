@@ -14,7 +14,7 @@ int isprime(int x){
 int main(){
 	int n,num[10],len,sum1,sum2,i,k,l,p,q,origin,geshu=0;
 	double sum3;
-    for(n=100;n<1000;n++){
+    for(n=100;n<10000;n++){
     	origin=n;
        if(isprime(n)){
 	      len=0,sum1=0,sum2=0,l=0,p=0,q=0;
